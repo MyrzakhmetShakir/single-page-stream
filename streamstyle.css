@@ -1,0 +1,183 @@
+html,
+body {
+     margin: 0;
+     padding: 0;
+     background-color: #af6915;
+}
+
+* {
+     box-sizing: border-box;
+}
+
+
+div.title {
+     width: 1000px;
+     display: flex;
+     justify-content: space-between;
+     margin: 40px auto 0;
+}
+
+h2.maingo {
+     padding: 15px 0 0 20px;
+     font: normal bold 35px Arial;
+     color: white;
+     text-transform: uppercase;
+}
+
+p.nar4 {
+     color: #cbc2bf;
+}
+
+
+.wrapper {
+     background-color: white;
+     width: 1000px;
+     margin: auto;
+     padding: 20px;
+}
+
+
+
+
+
+nav {
+     background-color: black;
+}
+
+ul.ulmenu {
+     margin: 0;
+     list-style-type: none;
+     display: flex;
+     padding: 0;
+}
+
+li {
+     display: flex;
+     width: 100%;
+     text-align: center;
+}
+
+a.menu {
+     text-decoration: none;
+     padding: 20px 0;
+     flex-grow: 1;
+     font: normal 15px Arial;
+     text-transform: uppercase;
+     color: white;
+}
+
+a.menu:hover,
+.active1 {
+     background-color: #34495e;
+}
+
+img {
+     width: 100%;
+     margin: 20px 0 20px 0;
+}
+
+
+.content {
+     display: flex;
+}
+
+div.main {
+     width: 700px;
+     padding: 20px;
+}
+
+h2 {
+     margin: 0;
+}
+
+p.mmm {
+     margin: 0 0 40px 0;
+     font: normal 15px/30px Arial;
+     color: #566573;
+}
+
+a.green {
+     color: #6fae80;
+     text-decoration: none;
+}
+
+h2.nemain {
+     color: #886a58;
+     font: normal bold 35px Arial;
+}
+
+
+
+.sidebar {
+     width: 400px;
+     display: flex;
+     flex-direction: column;
+     align-items: flex-end;
+}
+
+.right {
+     width: 320px;
+     height: auto;
+     background-color: #EFEDE5;
+     padding: 0;
+     margin-bottom: 20px;
+}
+
+.topmain,
+.centermain,
+.bottommain {
+     background-color: #5499c7;
+     margin: 2.5% auto;
+     width: 95%;
+}
+
+h3 {
+     margin: 0;
+     padding: 10px 30px 10px 15px;
+     color: white;
+     text-decoration: none;
+     font: normal bold 22px Arial;
+}
+
+ul.rtop,
+ul.rbottom {
+     padding: 0 20px;
+}
+
+a.rrbb,
+a.rrtt {
+     text-decoration: none;
+     font: normal 15px/40px Arial;
+     color: #6fae80;
+}
+a.rrtt:hover {
+     text-decoration: underline;
+}
+
+a.rrbb:hover {
+     color:#c23434;
+}
+
+p.rc {
+     margin: 20px 20px;
+     font: normal 15px/30px Arial;
+}
+
+
+
+footer {
+     background-color: #b4d86d;
+     padding: 30px 0;
+     text-align: center;
+}
+
+a.fot {
+     text-decoration: none;
+     font: normal 15px/40px Arial;
+     color: #6fae80;
+}
+
+p {
+     font: normal 15px/40px Arial;
+     color: #566573;
+}
